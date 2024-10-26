@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: "https://ardevelopers.vercel.app", // Replace with your page URL
     images: [
       {
-        url: "https://github.com/the-rajabraza/my-ar-dev/blob/main/socialcard.png", // Replace with the URL of your image
+        url: "https://github.com/the-rajabraza/id_card_generator/blob/main/socialcard.png", // Replace with the URL of your image
         width: 1200, // Optional
         height: 630, // Optional
         alt: "AR Developers Image", // Optional
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AR Developers",
     description: "AR Developers Website",
-    images: ["https://github.com/the-rajabraza/my-ar-dev/blob/main/socialcard.png"], // Replace with the URL of your image
+    images: ["https://github.com/the-rajabraza/id_card_generator/blob/main/socialcard.png"], // Replace with the URL of your image
   },
 };
 
