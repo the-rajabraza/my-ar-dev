@@ -35,7 +35,12 @@ export const metadata: Metadata = {
     card: "summary_large_image", // or "summary"
     title: "AR Developers",
     description: "AR Test",
-    image: "https://raw.githubusercontent.com/the-rajabraza/id_card_generator/main/socialcard.png", // Direct link to image
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/the-rajabraza/id_card_generator/main/socialcard.png", // Direct link to image
+        alt: "AR Developers Social Card",
+      },
+    ],
   },
 };
 
