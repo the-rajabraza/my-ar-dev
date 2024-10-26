@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "AR Developers",
-  description: "AR Developers Website",
+  description: "AR Developers is a cutting-edge web design and software development agency",
 };
 
 export default function RootLayout({
