@@ -15,10 +15,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "AR Developers",
-  description: "AR Test",
+  description: "AR Developers is a cutting-edge web design and software development agency",
   openGraph: {
     title: "AR Developers",
-    description: "AR Test",
+    description: "AR Developers is a cutting-edge web design and software development agency",
     url: "https://ardevelopers.vercel.app", // Updated URL
     siteName: "AR Developers",
     images: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image", // or "summary"
     title: "AR Developers",
-    description: "AR Test",
+    description: "AR Developers is a cutting-edge web design and software development agency",
     images: [
       {
         url: "https://raw.githubusercontent.com/the-rajabraza/id_card_generator/main/socialcard.png", // Direct link to image
