@@ -165,8 +165,8 @@ export default function ARDevelopersLanding() {
                             <h2 className="text-3xl font-bold text-center mb-16 text-gray-800 dark:text-gray-200 animate-on-scroll">Our Team</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
                                 {[
-                                    { name: 'John Doe', role: 'Founder & CEO', image: '/rajab.png' },
-                                    { name: 'Jane Smith', role: 'Lead Designer', image: '/abdullah.png' },
+                                   { name: 'Syed Abdullah', role: 'Cheif Executive Officer', image: '/abdullah.png' },
+                                     { name: 'Rajab Raza', role: 'Founder & Chairperson', image: '/rajab.png' },
                                 ].map((member, index) => (
                                     <div key={index} className="bg-white dark:bg-gray-700 p-8 rounded-xl shadow-lg text-center transition-all duration-300 hover:scale-105 animate-on-scroll">
                                         <Image
