@@ -8,6 +8,7 @@ import { Code, Laptop, Smartphone, Globe, Users, MessageSquare, ArrowRight, Mail
 import Image from 'next/image'
 import Link from 'next/link'
 
+
 export default function ARDevelopersLanding() {
     const [activeSection, setActiveSection] = useState('home')
     const [darkMode, setDarkMode] = useState(false)
@@ -65,10 +66,21 @@ export default function ARDevelopersLanding() {
                 backgroundSize: '20px 20px'
             }}></div>
             <div className="relative">
-                <header className="fixed top-0 left-0 right-0 bg-white dark:bg-gray-900 bg-opacity-90 dark:bg-opacity-90 shadow-sm z-50 backdrop-blur-sm transition-colors duration-300">
+                <header className="fixed top-0 left-0 right-0 bg-white bg-opacity-70 dark:bg-gray-900 dark:bg-opacity-70 shadow-sm z-50 backdrop-blur-md transition-colors duration-300">
                     <nav className="container mx-auto px-6 py-4">
                         <div className="flex justify-between items-center">
-                            <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">AR Developers</div>
+                            <div className="flex items-center">
+                                <div className="w-12 h-12 rounded-full overflow-hidden mr-2 bg-blue-600 flex items-center justify-center">
+                                    <Image
+                                        src="/logo.png?height=48&width=48"
+                                        alt="AR Developers Logo"
+                                        width={48}
+                                        height={48}
+                                        className="object-cover"
+                                    />
+                                </div>
+                                <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">AR Developers</div>
+                            </div>
                             <div className="hidden md:flex space-x-1">
                                 {['home', 'about', 'services', 'team', 'testimonials', 'internship', 'contact'].map((section) => (
                                     <button
@@ -219,6 +231,7 @@ export default function ARDevelopersLanding() {
 
                     <section id="internship" className="py-20 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
                         <div className="container mx-auto px-6">
+                
                             <h2 className="text-3xl font-bold text-center mb-16 text-gray-800 dark:text-gray-200 animate-on-scroll">Internship Program</h2>
                             <div className="max-w-3xl mx-auto text-center">
                                 <p className="text-lg mb-10 text-gray-600 dark:text-gray-400 animate-on-scroll">
