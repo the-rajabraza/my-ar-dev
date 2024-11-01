@@ -26,8 +26,22 @@ export default function ARDevelopersLanding() {
         setDarkMode(!darkMode)
         if (darkMode) {
             document.documentElement.classList.remove('dark')
+            updateThemeColor('#ffffff') // Light mode color
         } else {
             document.documentElement.classList.add('dark')
+            updateThemeColor('#111827') // Dark mode color
+        }
+    }
+
+    const updateThemeColor = (color: string) => {
+        const themeColorMeta = document.querySelector('meta[name="theme-color"]')
+        if (themeColorMeta) {
+            themeColorMeta.setAttribute('content', color)
+        } else {
+            const meta = document.createElement('meta')
+            meta.name = 'theme-color'
+            meta.content = color
+            document.head.appendChild(meta)
         }
     }
 
