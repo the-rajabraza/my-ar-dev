@@ -29,7 +29,7 @@ export default function ARDevelopersLanding() {
             updateThemeColor('#ffffff') // Light mode color
         } else {
             document.documentElement.classList.add('dark')
-            updateThemeColor('#111827') // Dark mode color
+            updateThemeColor('#131b29') // Dark mode color
         }
     }
 
